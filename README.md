@@ -10,9 +10,16 @@ Intended for training at LPP (Laboratoire de Phonétique et Phonologie), March 2
 - [**Eps viewer**](https://epsviewer.org/) for considering output figure.
 
 ## Usage
-1. Prepare input files and put them in the same folder with the script praatfig. The inputs files are depend on what you want to display in the figure. In this demo we need audio file with EGG signal is included (extension `.wav`), spectrogram (extension `.Spectrogram`).  
-2. Update input information in available script
-3. 
+1. **Prepare input files and put them in the same folder with the script `praatfig`.** 
+The inputs files are depend on what you want to display in the figure. In this demo we need: (i) audio file (extension `.wav`), (ii) spectrogram (extension `.Spectrogram`), (iii) pitch (extension `.pitch`). You can also have intensity, formant, or pulse. The way to prepare these inputs is that: 
+- (On window *Object Praat*) open sound file > select `view and edit`
+- (On toolbar of the new window for view and edit) select object which you want to display, for instance here we select `Spectrum`/ `Extract visible spectrogram`. 
+- (On window *Object Praat*) an new file is created named **Spectrogram untitled**, you need to save this file by selecting `Save`/ `Save as text file...`. 
+- You can extract other objects by the same process. 
+
+2. **Update input information in available script, adjust the script until you satify with the figure.**
+
+3. **Clean up the EPS graphic figure by Notepad++**
 
 ## Behind the script 
 1. You can understand and write the scripts yourself.
