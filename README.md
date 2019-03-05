@@ -5,8 +5,8 @@ Intended for training at LPP (Laboratoire de Phonétique et Phonologie), March 2
 
 ## Requirements
 - Obviously, **Praat** is required. Find the latest version at http://www.praat.org.
-- **Short audio segment(s)**: For practice, you can use the sound of this demo or you can extract an segment from your own data. The electroglottalgraphic signal (EGG) can be included. 
-- **Notepad++** for final cleaning on EPS graphics file. 
+- **Short audio segment(s)**: For practice, you can use the sound of this demo or you can extract an segment from your own data (exactly 0.600 sec is recommended duration for this demo script. Otherwise you need to adjust the script for more suitable scale). The electroglottalgraphic signal (EGG) can be included. 
+- **Notepad++** for final cleaning EPS graphics file. 
 - [**Eps viewer**](https://epsviewer.org/) for considering output figure.
 
 ## Usage
