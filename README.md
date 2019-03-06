@@ -39,5 +39,6 @@ So, *why we need script?* The answer is that it's much easier and faster to prod
 
 3. Save as `.eps` is highly recommended
 
-## References
-http://www.fon.hum.uva.nl/praat/manual/Picture_window.html
+## Futher references
+1. For futher information of **Praat Picture** and so on, visit: http://www.fon.hum.uva.nl/praat/manual/Picture_window.html
+2. Thanks to the [CREM archive](https://archives.crem-cnrs.fr/archives/items/CNRSMH_I_1900_001_004/) for allowing use of the 1900 recordings of Vietnamese.
