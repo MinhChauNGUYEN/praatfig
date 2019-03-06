@@ -5,34 +5,34 @@ This repository offers a demo script and sound file for practice. It was prepare
 
 ## Introduction
 
-Figures produced from Praat often look like this:
+Figures produced from Praat often look like... this:
 
- <img src="BadFigure.png" alt="Figure 1: an example of bad figure on Praat using screenshort." height="288">
+ <img src="BadFigure.png" alt="Figure 1: an example of bad figure on Praat using screenshort." height="200">
 
-The goal of this tutorial is to get this result: 
+The goal of this tutorial is to get this result instead: 
 
- <img src="sac_Demo_cleaned.png" alt="Figure 1: an example of bad figure on Praat using screenshort." height="400">
+ <img src="sac_Demo_cleaned.png" alt="Figure 1: an example of bad figure on Praat using screenshort." height="248">
 
-To be more specific, the 
-output file is not **raster** like the one above (.jpg, .png), but **vector**. Some figures look great on screen but terrible when zoomed in or printed. For explaination about this, visit: https://userblogs.fu-berlin.de/langsci-press/2016/12/12/graphics-and-images/. EPS files cannot be displayed in this interface (GitHub), hence the use of `.png` or `.jpg` files for screen display.
+In a nutshell: what we want is clear axes, crisp contrast, and sharp lines. To achieve this, the final output file is not **raster** (.jpg, .png), but **vector**. Some figures look great on screen but terrible when zoomed in or printed. For explanations about this, visit: https://userblogs.fu-berlin.de/langsci-press/2016/12/12/graphics-and-images/. 
 
 ## Requirements
 - Obviously, **Praat** is required. Find the latest version at http://www.praat.org.
 - **Short audio file(s)**: for practice, use the sound of this demo for a start. This is a recording of a Vietnamese tone from the year 1900, courtesy of the [CREM archive](https://archives.crem-cnrs.fr/archives/items/CNRSMH_I_1900_001_004/). Later, you can use any excerpt from your own data, of course. 
 - A plain text editor such as **Notepad++** for manual cleaning of the figure produced by Praat. 
-- A tool for viewing the figure produced by Praat, which is in EPS (Encapsulated PostScript) format: a vector format for high-resolution graphics. Free software includes [**Eps viewer**](https://epsviewer.org/). 
+- A tool for viewing the figure produced by Praat, which is in EPS (Encapsulated PostScript) format: a vector format for high-resolution graphics. Free software includes [**Eps viewer**](https://epsviewer.org/). (EPS files cannot be displayed in this interface (GitHub), hence the use of `.png` or `.jpg` files for screen display.)
 
 ## Instructions
+
 1. **Prepare input files and put them in the same folder as the script 'praatfig' (extension .PraatScript)** 
 
 The script is named **sactone.PraatScript** in this demo. 
-The inputs files are depend on what you want to display in the figure. In this demo we need: (i) audio file (extension `.wav`), (ii) spectrogram (extension `.Spectrogram`), (iii) pitch (extension `.pitch`). You can also have intensity, formant, or pulse. The way to prepare these inputs is that: 
+The input files depend on what you want to display (and highlight) in the figure, of course. In this demo we need: (i) audio file (extension `.wav`), (ii) spectrogram (extension `.Spectrogram`), (iii) pitch (extension `.pitch`). You can also have intensity, formant, or pulse. The way to prepare these inputs is that: 
 - (On window *Object Praat*) open sound file > select `view and edit`
-- (On toolbar of the new window for view and edit) select object which you want to display, for instance here we select `Spectrum`/ `Extract visible spectrogram`. 
-- (On window *Object Praat*) an new file is created named **Spectrogram untitled**, you need to save this file by selecting `Save`/ `Save as text file...`. 
+- (On toolbar of the new window for view and edit) select the object which you want to display, for instance here we select `Spectrum`/ `Extract visible spectrogram`. 
+- (On window *Object Praat*) a new file is created named **Spectrogram untitled**, you need to save this file by selecting `Save`/ `Save as text file...`. 
 - You can extract other objects by the same process. 
 
-2. **Update input information in available script, adjust the script until you satify with the figure.**
+2. **Update input information in available script, adjust the script until you are satified with the figure.**
 When using the script for many sound files, we should make a copy of the `.PraatScript` file and change the information of **Loading the data** in command `Read from file...` and **exporting the output file** in command `Save as EPS file...`. Other modification is also possible if it's necessary.
 
 3. **Clean up the EPS graphic figure by Notepad++**
@@ -41,7 +41,7 @@ When using the script for many sound files, we should make a copy of the `.Praat
 - Make manual changes.
 - At the same time you need to consider the figure by EPS viewer to make sure your changes are correct. 
 
-For example, in this demo, there are four places hane been modified: round time to 0.6 sec (not 0.6007); and remove three chiffres '0.1917', '-0.1801', '0' (on vertical axes of acoustic signal). Following is the out figure before and after cleaning by **Notepad++**
+For example, in this demo, there are four places that have been modified: rounding time to 0.6 sec (not 0.6007; Praat leaves responsibility for sensible rounding of figures to the user); and remove the three numbers '0.1917', '-0.1801', and '0' (on vertical axes of acoustic signal). Following is the output figure before and after cleaning by **Notepad++**
 
 Output figure before cleaning | Output figure after cleaning
 ----------------------------- | ----------------------------
