@@ -10,7 +10,7 @@ Intended for training at LPP (Laboratoire de Phonétique et Phonologie), March 2
 - [**Eps viewer**](https://epsviewer.org/) for considering output figure.
 
 ## Usage
-1. **Prepare input files and put them in the same folder with the script `praatfig`.** 
+1. **Prepare input files and put them in the same folder with the script 'praatfig'.** 
 The inputs files are depend on what you want to display in the figure. In this demo we need: (i) audio file (extension `.wav`), (ii) spectrogram (extension `.Spectrogram`), (iii) pitch (extension `.pitch`). You can also have intensity, formant, or pulse. The way to prepare these inputs is that: 
 - (On window *Object Praat*) open sound file > select `view and edit`
 - (On toolbar of the new window for view and edit) select object which you want to display, for instance here we select `Spectrum`/ `Extract visible spectrogram`. 
@@ -27,15 +27,17 @@ The script is actually a record of all the actions that you can do on `Praat Obj
 So, *why we need script?* The answer is that it's much easier and faster to produce many figures with the same scales (mass production). Therefore, after the first figure by manual produce, you can store all the actions as a script using `Paste history`.
 
 ### A rule-of-thumb order for plotting an object on **Praat Picture**
-- Choosing the position, or in other words, determine where your next drawing will occur. (There are two choices: `outer viewport` or `inner viewport`). 
+- Choosing the position (There are two choices: `Select outer viewport` or `Select inner viewport`). 
 - Drawing the objects with details: spectrogram/ audio sound/ pitch/ formants, etc.
 - Setting axes and legends
 - Save the file as `.eps`/ `.pdf`/ `.png`
 
 ### Some notes
 1. Outer viewport vs Inner viewport 
+Both of them are the ways to determine where your next drawing will occur by selecting the part of the Picture window. While the outer viewport includes the margins, the inner viewport does not. It's corresponding to the action you select the viewport by dragging your mouse arcoss the window **Praat Picture**. Althoght they can be used interchargeable, `Select inner viewport` offer an easier view for drawing the main objects such as *spectrogram, audio,* etc; whereas `Select outer viewport` is easer for setting information surround (including axes and legends), or choosing the entire figure for saving. 
 
 2. With vs without box or axes 
+
 
 3. Save as `.eps` is highly recommended
 
