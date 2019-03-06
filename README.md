@@ -7,11 +7,11 @@ This repository offers a demo script and sound file for practice. It was prepare
 
 Figures produced from Praat often look like... this:
 
- <img src="BadFigure.png" alt="Figure 1: an example of bad figure on Praat using screenshort." height="200">
+ <img src="images/BadFigure.png" alt="Figure 1: an example of bad figure on Praat using screenshort." height="200">
 
 The goal of this tutorial is to get this result instead: 
 
- <img src="sac_Demo_cleaned.png" alt="Figure 1: an example of bad figure on Praat using screenshort." height="248">
+ <img src="images/sac_Demo_cleaned.png" alt="Figure 1: an example of bad figure on Praat using screenshort." height="248">
 
 In a nutshell: what we want is clear axes, crisp contrast, and sharp lines. To achieve this, the final output file is not **raster** (.jpg, .png), but **vector**. Some figures look great on screen but terrible when zoomed in or printed. For explanations about this, visit: https://userblogs.fu-berlin.de/langsci-press/2016/12/12/graphics-and-images/. 
 
@@ -37,7 +37,7 @@ When using the script for many sound files, we should make a copy of the `.Praat
 
 3. **Clean up the EPS graphic figure by Notepad++**
 - Open the output file in **Notepad++**, 
-- Find the **text** (legends) or **chiffre** (axes's points) that need to be modified or deleted (shortcut: `Ctrl + F`)
+- Find the **text** (legends) or **number** (axes's points) that need to be modified or deleted (shortcut: `Ctrl + F`)
 - Make manual changes.
 - At the same time you need to consider the figure by EPS viewer to make sure your changes are correct. 
 
@@ -45,7 +45,7 @@ For example, in this demo, there are four places that have been modified: roundi
 
 Output figure before cleaning | Output figure after cleaning
 ----------------------------- | ----------------------------
-<img src="sac_Demo.png" height="288"> | <img src="sac_Demo_cleaned.png" height="288">
+<img src="image/sac_Demo.png" height="288"> | <img src="images/sac_Demo_cleaned.png" height="288">
 
 ## Behind the script 
 ### You can understand and write the scripts yourself.
