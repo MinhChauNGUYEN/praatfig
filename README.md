@@ -13,13 +13,14 @@ Intended for training at LPP (Laboratoire de Phonétique et Phonologie), March 2
 1. **Prepare input files and put them in the same folder with the script 'praatfig' (extension .PraatScript)** 
 
 The praatfig is named **sactone.PraatScript** in this demo. 
-The inputs files are depend on what you want to display in the figure. In this demo we need: (i) audio file (extension **.wav**), (ii) spectrogram (extension **.Spectrogram**), (iii) pitch (extension **.pitch**). You can also have intensity, formant, or pulse. The way to prepare these inputs is that: 
+The inputs files are depend on what you want to display in the figure. In this demo we need: (i) audio file (extension `.wav`), (ii) spectrogram (extension `.Spectrogram`), (iii) pitch (extension `.pitch`). You can also have intensity, formant, or pulse. The way to prepare these inputs is that: 
 - (On window *Object Praat*) open sound file > select `view and edit`
 - (On toolbar of the new window for view and edit) select object which you want to display, for instance here we select `Spectrum`/ `Extract visible spectrogram`. 
 - (On window *Object Praat*) an new file is created named **Spectrogram untitled**, you need to save this file by selecting `Save`/ `Save as text file...`. 
 - You can extract other objects by the same process. 
 
 2. **Update input information in available script, adjust the script until you satify with the figure.**
+When using the script for many sound files, we should make a copy file of `.PraatScript` and change the information of **Loading the data** with command `Read from file...` and **exporting the output file** with command `Save as EPS file...`. Other modification is also possible if it's necessary
 
 3. **Clean up the EPS graphic figure by Notepad++**
 
@@ -29,8 +30,8 @@ The script is actually a record of all the actions that you can do on **Praat Ob
 So, *why we need script?* The answer is that it's much easier and faster to produce many figures with the same scales (mass production). Therefore, after the first figure by manual produce, you can store all the actions as a script using `Paste history`.
 
 ### A rule-of-thumb order for plotting an object on **Praat Picture**
-- Choosing the position (There are two choices: `Select outer viewport` or `Select inner viewport`). 
-- Drawing the objects with details: spectrogram/ audio sound/ pitch/ formants, etc.
+- Choosing the position (There are two choices: `Select outer viewport` or `Select inner viewport`) 
+- Drawing the objects with details: spectrogram/ audio sound/ pitch/ formants, etc
 - Setting axes and legends
 - Save the file as `.eps`/ `.pdf`/ `.png`
 
@@ -43,7 +44,7 @@ Both of them are the ways to determine where your next drawing will occur by sel
  
 3. Save as `.eps` is highly recommended 
 > An EPS file is a graphics file saved in the Encapsulated PostScript (EPS) file format. It may contain 2D vector graphics, bitmap images, and text. 
-After saving the output figure with **.eps** format, we can easily clean up the figure by **Notepad++**. For instance, modify the legends, delete unnecessary index of automatic axes, etc.
+After saving the output figure with `.eps` format, we can easily clean up the figure by **Notepad++**. For instance, modify the legends, delete unnecessary index of automatic axes, etc.
 
 ## Futher references
 1. For futher information of **Praat Picture** and so on, visit: http://www.fon.hum.uva.nl/praat/manual/Picture_window.html
