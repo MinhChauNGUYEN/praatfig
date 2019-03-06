@@ -60,7 +60,7 @@ Output figure before cleaning | Output figure after cleaning
 <img src="images/sac_Demo.png" height="288"> | <img src="images/sac_Demo_cleaned.png" height="288">
 
 ## Behind the script 
-### You can understand and write the scripts yourself.
+### You can understand and edit the scripts yourself.
 The script is actually a record of all the actions that you can do on **Praat Objects** and **Praat Picture**. In other words, without a script you are still be able to make a figure by using functions on those two windows of Praat. 
 So, *why we need script?* The answer is that it's much easier and faster to produce many figures with the same scales (mass production). Therefore, after the first figure by manual produce, you can store all the actions as a script using `Paste history`.
 
