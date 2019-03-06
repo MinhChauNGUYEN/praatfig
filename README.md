@@ -29,13 +29,13 @@ In a nutshell: what we want is clear axes, crisp contrast, and sharp lines. To a
 
 The script is named **sactone.PraatScript** in this demo. 
 The input files depend on what you want to display (and highlight) in the figure, of course. In this demo we need: (i) sound (extension `.Sound`), (ii) spectrogram (extension `.Spectrogram`), (iii) pitch (extension `.pitch`). You can also have intensity, formant, or pulse. The way to prepare these inputs is that: 
-- (On window *Praat Object*) open sound file `Open`/ `Read from file` > select `view and edit`
+- (On window *'Praat Object'*) open sound file `Open`/ `Read from file` > select `view and edit`
 - (On toolbar of the new window for view and edit) select and extract the object which you want to display, for instance here we select `Spectrum`/ `Extract visible spectrogram`. 
-- (On window *Praat Object*) a new file is created named **Spectrogram untitled**, you need to save this file by selecting `Save`/ `Save as text file...`. 
+- (On window *'Praat Object'*) a new file is created named **Spectrogram untitled**, you need to save this file by selecting `Save`/ `Save as text file...`. 
 - You can extract other objects by the same process.
 
 3. **Open the script**
-(On window *Praat Object*) select `Praat`/ `New Praat script`
+(On window *'Praat Object'*) select `Praat`/ `New Praat script`
 
 4. **Update input information in available script, adjust the script until you are satified with the figure.**
 
