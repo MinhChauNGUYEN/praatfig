@@ -13,7 +13,7 @@ Intended for training at LPP (Laboratoire de Phonétique et Phonologie), March 2
 1. **Prepare input files and put them in the same folder with the script 'praatfig' (extension .PraatScript)** 
 
 The praatfig is named **sactone.PraatScript** in this demo. 
-The inputs files are depend on what you want to display in the figure. In this demo we need: (i) audio file (extension `.wav`), (ii) spectrogram (extension `.Spectrogram`), (iii) pitch (extension `.pitch`). You can also have intensity, formant, or pulse. The way to prepare these inputs is that: 
+The inputs files are depend on what you want to display in the figure. In this demo we need: (i) audio file (extension **.wav**), (ii) spectrogram (extension **.Spectrogram**), (iii) pitch (extension **.pitch**). You can also have intensity, formant, or pulse. The way to prepare these inputs is that: 
 - (On window *Object Praat*) open sound file > select `view and edit`
 - (On toolbar of the new window for view and edit) select object which you want to display, for instance here we select `Spectrum`/ `Extract visible spectrogram`. 
 - (On window *Object Praat*) an new file is created named **Spectrogram untitled**, you need to save this file by selecting `Save`/ `Save as text file...`. 
@@ -25,7 +25,7 @@ The inputs files are depend on what you want to display in the figure. In this d
 
 ## Behind the script 
 ### You can understand and write the scripts yourself.
-The script is actually a record of all the actions that you can do on `Praat Objects` and `Praat Picture`. In other words, without a script you are still be able to make a figure by using functions on those two windows of Praat. 
+The script is actually a record of all the actions that you can do on **Praat Objects** and **Praat Picture**. In other words, without a script you are still be able to make a figure by using functions on those two windows of Praat. 
 So, *why we need script?* The answer is that it's much easier and faster to produce many figures with the same scales (mass production). Therefore, after the first figure by manual produce, you can store all the actions as a script using `Paste history`.
 
 ### A rule-of-thumb order for plotting an object on **Praat Picture**
@@ -41,7 +41,9 @@ Both of them are the ways to determine where your next drawing will occur by sel
 2. With vs without box or axes 
  When drawing any object, there is an option is **Garnish**. If you select this option (correspoding to `"yes"` on the script), the box or the axis and the legends with will be created automatically which is good for drawing one single object. When you would like to combine two or more than two objects (spectrogram + audio + pitch, for instance), it will be better to draw without **Garnish**, then later we can use command `Draw inner box` to make the box and set the axes and legends exaclty where and what we want. This way is cleanser and no conflict between objects.
  
-3. Save as `.eps` is highly recommended
+3. Save as `.eps` is highly recommended 
+> An EPS file is a graphics file saved in the Encapsulated PostScript (EPS) file format. It may contain 2D vector graphics, bitmap images, and text. 
+After saving the output figure with **.eps** format, we can easily clean up the figure by **Notepad++**. For instance, modify the legends, delete unnecessary index of automatic axes, etc.
 
 ## Futher references
 1. For futher information of **Praat Picture** and so on, visit: http://www.fon.hum.uva.nl/praat/manual/Picture_window.html
