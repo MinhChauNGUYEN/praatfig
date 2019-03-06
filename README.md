@@ -67,6 +67,7 @@ Both of them are the ways to determine where your next drawing will occur by sel
  
 3. Save as `.eps` is highly recommended 
 > An EPS file is a graphics file saved in the Encapsulated PostScript (EPS) file format. It may contain 2D vector graphics, bitmap images, and text. 
+
 After saving the output figure with `.eps` format, we can easily clean up the figure by **Notepad++**. For instance, modify the legends, delete unnecessary index of automatic axes, etc.
 
 ## Futher references
