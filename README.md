@@ -1,13 +1,14 @@
-# praatfig
-Simple example scripts to learn to produce great figures with Praat. This repository offers a demo script and sound file for practice. 
+# praatfig: a beginner-level tutorial to produce great figures with Praat 
 
-This demo using the sound of Vietnamese tone (C1), Thanks to the [CREM archive](https://archives.crem-cnrs.fr/archives/items/CNRSMH_I_1900_001_004/) for allowing use of the 1900 recordings of Vietnamese. 
+This repository offers a demo script and sound file for practice. It was prepared for a training session at LPP (Laboratoire de Phonétique et Phonologie), March 2019.
 
-Intended for training at LPP (Laboratoire de Phonétique et Phonologie), March 2019.
+This demo uses a recording of a Vietnamese tone from the year 1900, courtesy of the [CREM archive](https://archives.crem-cnrs.fr/archives/items/CNRSMH_I_1900_001_004/). 
+
+
 
 ## Requirements
 - Obviously, **Praat** is required. Find the latest version at http://www.praat.org.
-- **Short audio segment(s)**: For practice, you can use the sound of this demo or you can extract an segment from your own data (exactly 0.600 sec is recommended duration for this demo script. Otherwise you need to adjust the script for more suitable scale). The electroglottalgraphic signal (EGG) can be included. 
+- **Short audio file(s)**: for practice, use the sound of this demo for a start.  or you can use an excerpt from your own data. (exactly 0.600 sec is recommended duration for this demo script. Otherwise you need to adjust the script for more suitable scale). The electroglottalgraphic signal (EGG) can be included. 
 - **Notepad++** for final cleaning EPS graphics file. 
 - [**Eps viewer**](https://epsviewer.org/) for considering output figure.
 
