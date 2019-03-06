@@ -1,5 +1,7 @@
 # praatfig
-Simple example scripts to learn to produce great figures with Praat 
+Simple example scripts to learn to produce great figures with Praat. This repository offers a demo script and sound file for practice. 
+
+This demo using the sound of Vietnamese tone (C1), Thanks to the [CREM archive](https://archives.crem-cnrs.fr/archives/items/CNRSMH_I_1900_001_004/) for allowing use of the 1900 recordings of Vietnamese. 
 
 Intended for training at LPP (Laboratoire de Phonétique et Phonologie), March 2019.
 
@@ -56,4 +58,3 @@ After saving the output figure with `.eps` format, we can easily clean up the fi
 
 ## Futher references
 1. For futher information of **Praat Picture** and so on, visit: http://www.fon.hum.uva.nl/praat/manual/Picture_window.html
-2. Thanks to the [CREM archive](https://archives.crem-cnrs.fr/archives/items/CNRSMH_I_1900_001_004/) for allowing use of the 1900 recordings of Vietnamese.
