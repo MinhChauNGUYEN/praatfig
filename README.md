@@ -8,7 +8,7 @@ Figures produced from Praat often look like this:
 
 The goal of this tutorial is to get this result: 
 
-To be more specific, the output file is not **raster** like the one above (.jpg, .png), but **vector**. Some figures look great on screen but terrible when zoomed in or printed. For explaination about this: https://userblogs.fu-berlin.de/langsci-press/2016/12/12/graphics-and-images/ EPS  files cannot  be displayed in this interface (GitHub), hence the use of .png files for screen display.
+To be more specific, the output file is not **raster** like the one above (.jpg, .png), but **vector**. Some figures look great on screen but terrible when zoomed in or printed. For explaination about this, visit: https://userblogs.fu-berlin.de/langsci-press/2016/12/12/graphics-and-images/. EPS files cannot be displayed in this interface (GitHub), hence the use of `.png` or `.jpg` files for screen display.
 
 ## Requirements
 - Obviously, **Praat** is required. Find the latest version at http://www.praat.org.
