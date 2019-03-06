@@ -10,7 +10,9 @@ Intended for training at LPP (Laboratoire de Phonétique et Phonologie), March 2
 - [**Eps viewer**](https://epsviewer.org/) for considering output figure.
 
 ## Usage
-1. **Prepare input files and put them in the same folder with the script 'praatfig'.** 
+1. **Prepare input files and put them in the same folder with the script 'praatfig' (extension .PraatScript)** 
+
+The praatfig is named **sactone.PraatScript** in this demo. 
 The inputs files are depend on what you want to display in the figure. In this demo we need: (i) audio file (extension `.wav`), (ii) spectrogram (extension `.Spectrogram`), (iii) pitch (extension `.pitch`). You can also have intensity, formant, or pulse. The way to prepare these inputs is that: 
 - (On window *Object Praat*) open sound file > select `view and edit`
 - (On toolbar of the new window for view and edit) select object which you want to display, for instance here we select `Spectrum`/ `Extract visible spectrogram`. 
@@ -37,8 +39,8 @@ So, *why we need script?* The answer is that it's much easier and faster to prod
 Both of them are the ways to determine where your next drawing will occur by selecting the part of the Picture window. While the outer viewport includes the margins, the inner viewport does not. It's corresponding to the action you select the viewport by dragging your mouse arcoss the window **Praat Picture**. Althoght they can be used interchargeable, `Select inner viewport` offer an easier view for drawing the main objects such as *spectrogram, audio,* etc; whereas `Select outer viewport` is easer for setting information surround (including axes and legends), or choosing the entire figure for saving. 
 
 2. With vs without box or axes 
-
-
+ When drawing any object, there is an option is **Garnish**. If you select this option (correspoding to `"yes"` on the script), the box or the axis and the legends with will be created automatically which is good for drawing one single object. When you would like to combine two or more than two objects (spectrogram + audio + pitch, for instance), it will be better to draw without **Garnish**, then later we can use command `Draw inner box` to make the box and set the axes and legends exaclty where and what we want. This way is cleanser and no conflict between objects.
+ 
 3. Save as `.eps` is highly recommended
 
 ## Futher references
