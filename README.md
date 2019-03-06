@@ -20,9 +20,15 @@ The inputs files are depend on what you want to display in the figure. In this d
 - You can extract other objects by the same process. 
 
 2. **Update input information in available script, adjust the script until you satify with the figure.**
-When using the script for many sound files, we should make a copy file of `.PraatScript` and change the information of **Loading the data** with command `Read from file...` and **exporting the output file** with command `Save as EPS file...`. Other modification is also possible if it's necessary
+When using the script for many sound files, we should make a copy of the `.PraatScript` file and change the information of **Loading the data** in command `Read from file...` and **exporting the output file** in command `Save as EPS file...`. Other modification is also possible if it's necessary.
 
 3. **Clean up the EPS graphic figure by Notepad++**
+- Open the output file in **Notepad++**, 
+- Find the **text** (legends) or **chiffre** (axes's points) that need to be modified or deleted (shortcut: `Ctrl + F`)
+- Make manual changes.
+- At the same time you need to consider the figure by EPS viewer to make sure your changes are correct. 
+
+For example, in this demo, there are four places hane been modified: round time to 0.6 sec (not 0.6007); and remove three chiffres '0.1917', '-0.1801', '0' (on vertical axes of acoustic signal).
 
 ## Behind the script 
 ### You can understand and write the scripts yourself.
