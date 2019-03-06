@@ -33,7 +33,7 @@ So, *why we need script?* The answer is that it's much easier and faster to prod
 - Save the file as `.eps`/ `.pdf`/ `.png`
 
 ### Some notes
-1. `outer viewport` vs inner viewport 
+1. Outer viewport vs Inner viewport 
 
 2. With vs without box or axes 
 
