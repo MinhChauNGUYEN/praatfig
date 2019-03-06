@@ -22,12 +22,22 @@ The inputs files are depend on what you want to display in the figure. In this d
 3. **Clean up the EPS graphic figure by Notepad++**
 
 ## Behind the script 
-1. You can understand and write the scripts yourself.
+### You can understand and write the scripts yourself.
 The script is actually a record of all the actions that you can do on `Praat Objects` and `Praat Picture`. In other words, without a script you are still be able to make a figure by using functions on those two windows of Praat. 
-So, *why we need script?* The answer is that it's much easier and faster to produce many figures with the same scales (mass production). 
+So, *why we need script?* The answer is that it's much easier and faster to produce many figures with the same scales (mass production). Therefore, after for first figure by manual produce, you can store all the actions as a script using `Paste history`.
 
-2. Order of the commands are important
-- Always beginning with clear command `Erase all`
-- 
+### A rule-of-thumb order for plotting an object on **Praat Picture**
+- Choosing the position, or in other words, determine where your next drawing will occur. (There are two choices: `outer viewport` or `inner viewport`). 
+- Drawing the objects with details: spectrogram/ audio sound/ pitch/ formants, etc.
+- Setting axes and legends
+- Save the file as `.eps`/ `.pdf`/ `.png`
+
+### Some notes
+1. `outer viewport` vs inner viewport 
+
+2. With vs without box or axes 
+
+3. Save as `.eps` is highly recommended
+
 ## References
 http://www.fon.hum.uva.nl/praat/manual/Picture_window.html
