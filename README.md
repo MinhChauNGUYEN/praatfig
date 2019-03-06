@@ -28,7 +28,9 @@ When using the script for many sound files, we should make a copy of the `.Praat
 - Make manual changes.
 - At the same time you need to consider the figure by EPS viewer to make sure your changes are correct. 
 
-For example, in this demo, there are four places hane been modified: round time to 0.6 sec (not 0.6007); and remove three chiffres '0.1917', '-0.1801', '0' (on vertical axes of acoustic signal).
+For example, in this demo, there are four places hane been modified: round time to 0.6 sec (not 0.6007); and remove three chiffres '0.1917', '-0.1801', '0' (on vertical axes of acoustic signal). Following is the out figure before and after cleaning by **Notepad++**
+
+<img src="sac_Demo.eps" alt="Output figure before cleaning."> | <img src="images/sac_Demo_Cleaned.eps" alt="Output figure after cleaning.">
 
 ## Behind the script 
 ### You can understand and write the scripts yourself.
