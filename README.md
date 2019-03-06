@@ -45,7 +45,7 @@ For example, in this demo, there are four places that have been modified: roundi
 
 Output figure before cleaning | Output figure after cleaning
 ----------------------------- | ----------------------------
-<img src="image/sac_Demo.png" height="288"> | <img src="images/sac_Demo_cleaned.png" height="288">
+<img src="images/sac_Demo.png" height="288"> | <img src="images/sac_Demo_cleaned.png" height="288">
 
 ## Behind the script 
 ### You can understand and write the scripts yourself.
