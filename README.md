@@ -35,7 +35,7 @@ The input files depend on what you want to display (and highlight) in the figure
 - You can extract other objects by the same process.
 
 3. **Open the script**
-(On window *'Praat Object'*) select `Praat`/ `New Praat script`
+(On window *'Praat Object'*) select `Praat`/ `Open Praat script`
 
 4. **Update input information in available script, adjust the script until you are satified with the figure.**
 
