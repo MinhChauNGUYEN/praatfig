@@ -2,20 +2,24 @@
 
 This repository offers a demo script and sound file for practice. It was prepared for a training session at LPP (Laboratoire de Phonétique et Phonologie), March 2019.
 
-This demo uses a recording of a Vietnamese tone from the year 1900, courtesy of the [CREM archive](https://archives.crem-cnrs.fr/archives/items/CNRSMH_I_1900_001_004/). 
 
+## Introduction
+Figures produced from Praat often look like this:
 
+The goal of this tutorial is to get this result: 
+
+To be more specific, the output file is not **raster** like the one above (.jpg, .png), but **vector**. Some figures look great on screen but terrible when zoomed in or printed. For explaination about this: https://userblogs.fu-berlin.de/langsci-press/2016/12/12/graphics-and-images/ EPS  files cannot  be displayed in this interface (GitHub), hence the use of .png files for screen display.
 
 ## Requirements
 - Obviously, **Praat** is required. Find the latest version at http://www.praat.org.
-- **Short audio file(s)**: for practice, use the sound of this demo for a start.  or you can use an excerpt from your own data. (exactly 0.600 sec is recommended duration for this demo script. Otherwise you need to adjust the script for more suitable scale). The electroglottalgraphic signal (EGG) can be included. 
-- **Notepad++** for final cleaning EPS graphics file. 
-- [**Eps viewer**](https://epsviewer.org/) for considering output figure.
+- **Short audio file(s)**: for practice, use the sound of this demo for a start. This is a recording of a Vietnamese tone from the year 1900, courtesy of the [CREM archive](https://archives.crem-cnrs.fr/archives/items/CNRSMH_I_1900_001_004/). Later, you can use any excerpt from your own data, of course. 
+- A plain text editor such as **Notepad++** for manual cleaning of the figure produced by Praat. 
+- A tool for viewing the figure produced by Praat, which is in EPS (Encapsulated PostScript) format: a vector format for high-resolution graphics. Free software includes [**Eps viewer**](https://epsviewer.org/). 
 
-## Usage
-1. **Prepare input files and put them in the same folder with the script 'praatfig' (extension .PraatScript)** 
+## Instructions
+1. **Prepare input files and put them in the same folder as the script 'praatfig' (extension .PraatScript)** 
 
-The praatfig is named **sactone.PraatScript** in this demo. 
+The script is named **sactone.PraatScript** in this demo. 
 The inputs files are depend on what you want to display in the figure. In this demo we need: (i) audio file (extension `.wav`), (ii) spectrogram (extension `.Spectrogram`), (iii) pitch (extension `.pitch`). You can also have intensity, formant, or pulse. The way to prepare these inputs is that: 
 - (On window *Object Praat*) open sound file > select `view and edit`
 - (On toolbar of the new window for view and edit) select object which you want to display, for instance here we select `Spectrum`/ `Extract visible spectrogram`. 
