@@ -54,7 +54,7 @@ Other modification is also possible if it's necessary.
 - Make manual changes.
 - At the same time you need to consider the figure by EPS viewer to make sure your changes are correct. 
 
-For example, in this demo, there are four places that have been modified: rounding time to 0.6 sec (not 0.6007; Praat leaves responsibility for sensible rounding of figures to the user); and remove the three numbers '0.1917', '-0.1801', and '0' (on vertical axes of acoustic signal). Following is the output figure before and after cleaning by **Notepad++**
+For example, in this demo, there are four places that have been modified: rounding time to 0.6 sec (not 0.6007; Praat leaves responsibility for sensible rounding of figures to the user); and remove the three numbers '0.5092', '-0.5644', and '0' (on vertical axes of acoustic signal). Following is the output figure before and after cleaning by **Notepad++**
 
 Output figure before cleaning | Output figure after cleaning
 ----------------------------- | ----------------------------
@@ -66,8 +66,10 @@ The script is actually a record of all the actions that you can do on **Praat Ob
 So, *why we need script?* The answer is that it's much easier and faster to produce many figures with the same scales (mass production). Therefore, after the first figure by manual produce, you can store all the actions as a script using `Paste history`.
 
 ### A rule-of-thumb order of the script for plotting an object 
+- Loading data
 - Choosing the position (There are two choices: `Select outer viewport` or `Select inner viewport`) 
-- Drawing the objects with details: spectrogram/ audio sound/ pitch/ formants, etc
+- Selecting object: spectrogram/ audio sound/ pitch/ formants, etc
+- Drawing the objects with details
 - Setting axes and legends
 - Save the file as `.eps`/ `.pdf`/ `.png`
 
