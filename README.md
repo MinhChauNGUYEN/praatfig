@@ -20,6 +20,7 @@ In a nutshell: what we want is clear axes, crisp contrast, and sharp lines. To a
 - **Short audio file(s)**: for practice, use the sound of this demo for a start. This is a recording of a Vietnamese tone from the year 1900, courtesy of the [CREM archive](https://archives.crem-cnrs.fr/archives/items/CNRSMH_I_1900_001_004/). Later, you can use any excerpt from your own data, of course. 
 - A plain text editor such as **Notepad++** for manual cleaning of the figure produced by Praat. 
 - A tool for viewing the figure produced by Praat, which is in EPS (Encapsulated PostScript) format: a vector format for high-resolution graphics. Free software includes [**Eps viewer**](https://epsviewer.org/). (EPS files cannot be displayed in this interface (GitHub), hence the use of `.png` or `.jpg` files for screen display.)
+> An EPS file is a graphics file saved in the Encapsulated PostScript (EPS) file format. It may contain 2D vector graphics, bitmap images, and text. 
 
 ## Instructions
 
@@ -78,7 +79,6 @@ Both of them are the ways to determine where your next drawing will occur by sel
  When drawing any object, there is an option is **Garnish**. If you select this option (correspoding to `"yes"` on the script), the box or the axis and the legends will be created automatically which is good for drawing one single object. When you would like to combine two or more than two objects (spectrogram + audio + pitch, for instance), it will be better to draw without **Garnish**, then later we can use command `Draw inner box` to make the box and set the axes and legends exaclty where and what we want. This way is cleanser and no conflict between objects. 
  
 3. Save as `.eps` is highly recommended 
-> An EPS file is a graphics file saved in the Encapsulated PostScript (EPS) file format. It may contain 2D vector graphics, bitmap images, and text. 
 
 After saving the output figure with `.eps` format, we can easily clean up the figure by **Notepad++**. For instance, modify the legends, delete unnecessary index of automatic axes, etc.
 
