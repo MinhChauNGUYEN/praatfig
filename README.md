@@ -86,5 +86,5 @@ Both of them are the ways to determine where your next drawing will occur by sel
 
 After saving the output figure with `.eps` format, we can easily clean up the figure by **Notepad++**. For instance, modify the legends, delete unnecessary index of automatic axes, etc.
 
-## Futher references
+## Futrher references
 1. For further information of **Praat Picture** and so on, visit: http://www.fon.hum.uva.nl/praat/manual/Picture_window.html
