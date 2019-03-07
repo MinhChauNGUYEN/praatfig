@@ -74,15 +74,15 @@ So, *why we need script?* The answer is that it's much easier and faster to prod
 - Save the file as `.eps`/ `.pdf`/ `.png`
 
 ### Some notes
-1. Outer viewport vs Inner viewport 
+1. **Outer viewport** vs **Inner viewport** 
 
 Both of them are the ways to determine where your next drawing will occur by selecting the part of the Picture window. While the outer viewport includes the margins, the inner viewport does not. It's corresponding to the action you select the viewport by dragging your mouse arcoss the window **Praat Picture**. Althoght they can be used interchargeable, `Select inner viewport` offer an easier view for drawing the main objects such as *spectrogram, audio,* etc; whereas `Select outer viewport` is easer for setting information surround (including axes and legends), or choosing the entire figure for saving. 
 
-2. With vs without box or axes 
+2. **With** vs **without** box or axes 
 
  When drawing any object, there is an option is **Garnish**. If you select this option (correspoding to `"yes"` on the script), the box or the axis and the legends will be created automatically which is good for drawing one single object. When you would like to combine two or more than two objects (spectrogram + audio + pitch, for instance), it will be better to draw without **Garnish**, then later we can use command `Draw inner box` to make the box and set the axes and legends exaclty where and what we want. This way is cleanser and no conflict between objects. 
  
-3. Save as `.eps` is highly recommended 
+3. **Save as `.eps`** is highly recommended 
 
 After saving the output figure with `.eps` format, we can easily clean up the figure by **Notepad++**. For instance, modify the legends, delete unnecessary index of automatic axes, etc.
 
