@@ -67,7 +67,7 @@ So, *why we need script?* The answer is that it's much easier and faster to prod
 
 ### A rule-of-thumb order of the script for plotting an object 
 - Loading data
-- Choosing the position (There are two choices: `Select outer viewport` or `Select inner viewport`) 
+- Choosing the position (There are two options: `Select outer viewport` or `Select inner viewport`) 
 - Selecting object: spectrogram/ audio sound/ pitch/ formants, etc
 - Drawing the objects with details
 - Setting axes and legends
