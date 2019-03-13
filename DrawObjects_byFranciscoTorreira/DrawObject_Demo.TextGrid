@@ -1,0 +1,60 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 2.9257142857142857 
+tiers? <exists> 
+size = 2 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "IPA" 
+        xmin = 0 
+        xmax = 2.9257142857142857 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.4894176825224116 
+            text = "" 
+        intervals [2]:
+            xmin = 0.4894176825224116 
+            xmax = 1.1785945398861555 
+            text = "paj2" 
+        intervals [3]:
+            xmin = 1.1785945398861555 
+            xmax = 1.988423048671669 
+            text = "" 
+        intervals [4]:
+            xmin = 1.988423048671669 
+            xmax = 2.6739437953862684 
+            text = "paj1" 
+        intervals [5]:
+            xmin = 2.6739437953862684 
+            xmax = 2.9257142857142857 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "Meaning" 
+        xmin = 0 
+        xmax = 2.9257142857142857 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.4894176825224116 
+            text = "" 
+        intervals [2]:
+            xmin = 0.4894176825224116 
+            xmax = 1.1785945398861555 
+            text = "Barrage " 
+        intervals [3]:
+            xmin = 1.1785945398861555 
+            xmax = 1.988423048671669 
+            text = "" 
+        intervals [4]:
+            xmin = 1.988423048671669 
+            xmax = 2.6739437953862684 
+            text = "Cloth" 
+        intervals [5]:
+            xmin = 2.6739437953862684 
+            xmax = 2.9257142857142857 
+            text = "" 
