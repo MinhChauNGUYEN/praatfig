@@ -7,11 +7,11 @@ This repository offers a demo script and sound file for practice. It was prepare
 
 Figures produced from Praat often look like... this:
 
- <img src="images/BadFigure.png" alt="Figure 1: an example of bad figure on Praat using screenshort." height="200">
+ <img src="Images/BadFigure.png" alt="Figure 1: an example of bad figure on Praat using screenshort." height="200">
 
 The goal of this tutorial is to get this result instead: 
 
- <img src="images/sac_Demo_cleaned.png" alt="Figure 1: an example of bad figure on Praat using screenshort." height="300">
+ <img src="Images/sac_Demo_cleaned.png" alt="Figure 1: an example of bad figure on Praat using screenshort." height="300">
 
 In a nutshell: what we want is clear axes, crisp contrast, and sharp lines. To achieve this, the final output file is not **raster** (.jpg, .png), but **vector**. Some figures look great on screen but terrible when zoomed in or printed. For explanations about this, visit: https://userblogs.fu-berlin.de/langsci-press/2016/12/12/graphics-and-images/. 
 
@@ -58,7 +58,7 @@ For example, in this demo, there are four places that have been modified: roundi
 
 Output figure before cleaning | Output figure after cleaning
 ----------------------------- | ----------------------------
-<img src="images/sac_Demo.png" height="288"> | <img src="images/sac_Demo_cleaned.png" height="288">
+<img src="Images/sac_Demo.png" height="288"> | <img src="Images/sac_Demo_cleaned.png" height="288">
 
 ## Behind the script 
 ### You can understand and edit the scripts yourself.
