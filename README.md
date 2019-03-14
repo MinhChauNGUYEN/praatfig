@@ -20,7 +20,9 @@ See [this folder](https://github.com/MinhChauNGUYEN/praatfig/tree/master/Script3
 
 
 ## Requiments
-
+- Obviously, **Praat** software is required. Find the latest version at http://www.praat.org. **praatfig** assumes that the user already has some basic knowledge of **praat** such as: open and save objects, view and edit audio file, creat `TextGrid` file and annotate, etc.
+- The output's format is **.eps** which allow edit text of image (replace the current text with your desired text or even delete them). 
+> EPS is a file extension for a graphics file format used in vector-based images in Adobe Illustrator. EPS stands for Encapsulated PostScript. An EPS file can contain text as well as graphics. It also usually contains a bit map version of the image for simpler viewing rather than the vector instructions to draw the image.
 
 ## Comments, suggestions, question, etc.
 If you have a bug or an idea, please submit an issue to **MinhChauNGUYEN/praatfig** or contact me by email: minhchau.ntm@gmail.com 
