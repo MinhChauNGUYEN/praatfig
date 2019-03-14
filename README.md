@@ -9,4 +9,4 @@ This repository offers scripts with elaborated instruction to help phoneticians 
 ## Requiments
 ##
 ## Comments, suggestions, question, etc.
-If you have a bug or an idea, please submit an issue to **MinhChauNGUYEN/praatfig** or send an email to minhchau.ntm@gmail.com 
+If you have a bug or an idea, please submit an issue to **MinhChauNGUYEN/praatfig** or contact me by email: minhchau.ntm@gmail.com 
