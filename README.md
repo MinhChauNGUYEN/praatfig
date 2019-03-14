@@ -1,10 +1,12 @@
 # praatfig
 
-This repository offers scripts with elaborated instruction to help phoneticians (from beginner level) learn how to produce high quality figures on Praat (instead of screenshot Praat's window). 
+This repository offers scripts with elaborated instruction to help phoneticians (from beginner level) learn how to produce high quality figures on Praat (instead of taking screenshot from Praat's window). 
 
-## Script #1: Beginner 
+## Script #1: Simple script for beginner 
 
-## Script #2: Advance: A script by [Francisco Torreira](http://cgussenhoven.ruhosting.nl/wordpress/wp-content/uploads/2018/01/byCourtesy_Francisco_Torreira.txt)
+## Script #2: Adding f0 and Oq values caculated by [Peakdet](https://github.com/alexis-michaud/egg/tree/master/peakdet_inter)
+
+## Script #3: An advanced script by [Francisco Torreira](http://cgussenhoven.ruhosting.nl/wordpress/wp-content/uploads/2018/01/byCourtesy_Francisco_Torreira.txt)
 
 ## Requiments
 ##
