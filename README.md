@@ -5,9 +5,9 @@ This repository offers scripts with elaborated instruction to help phoneticians 
 ## Requiments
 - Obviously, **Praat** software is required. Find the latest version at http://www.praat.org. 
 
-**praatfig** assumes that the user already has some basic knowledge of **Praat** such as: open and save objects, view and edit audio file, creat `TextGrid` file and make annotation, etc.
+**praatfig** assumes that the user already has some basic knowledge of **Praat**. For example: open and save objects, view and edit audio file, creat `TextGrid` file and make annotation, etc.
 
-- `.eps` is default format for output files here (it is set inside the scripts #1 and #2). This format allow editing text of image (replace the current text with your desired text or delete them). It helps to clean up some details of the figure which are much more complicated to deal with by script. In order to carry on this stuff, we need 2 supporting softwares: 
+- Save as `.eps` is highly recommended although there are also other options such as:  `.png`, `.pdf`, or `.prapic` (praat picture). This format allow editing text of image (replace the current text with your desired text or delete them). It helps to clean up some details of the figure which are much more complicated to deal with by script. In order to carry on this stuff, we need 2 supporting softwares: 
 
   - A plain text editor such as **Notepad++** for openning and manual editing the output figure.
   - A tool for viewing the `.eps` figure. Free software includes [**Eps viewer**](https://epsviewer.org/). (Note that EPS files cannot be displayed in this interface (GitHub), hence the use of `.png` or `.jpg` files for screen display.)
@@ -17,9 +17,6 @@ This repository offers scripts with elaborated instruction to help phoneticians 
 
 
 ## General instructions
-### You can understand and edit the scripts yourself.
-The script is actually a record of all the actions that you can do on **Praat Objects** and **Praat Picture**. In other words, without a script you are still be able to make a figure by using functions on those two windows of Praat. 
-So, *why we need script?* The answer is that it's much easier and faster to produce many figures with the same scales (mass production). Therefore, after the first figure by manual produce, you can store all the actions as a script using `Paste history`.
 
 ### A rule-of-thumb order of the script for plotting an object 
 - Loading data
@@ -29,9 +26,9 @@ So, *why we need script?* The answer is that it's much easier and faster to prod
 - Setting axes and legends
 - Save the file as `.eps`/ `.pdf`/ `.png`
 
-### **Save as `.eps`** is highly recommended 
+### Understanding available scripts of **Praatfig** 
 
-There are several options to save the output file. You can save as `.png`, `.pdf`, or `.prapic` (praat picture). However, `.eps` will be the best option if you wish to edit the figure manually later. 
+
 
 ## Let's start
 
