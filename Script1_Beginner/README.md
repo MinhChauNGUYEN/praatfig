@@ -70,3 +70,13 @@ Both of them are the ways to determine where your next drawing will occur by sel
 
  When drawing any object, there is an option is **Garnish**. If you select this option (correspoding to `"yes"` on the script), the box or the axis and the legends will be created automatically which is good for drawing one single object. When you would like to combine two or more than two objects (spectrogram + audio + pitch, for instance), it will be better to draw without **Garnish**, then later we can use command `Draw inner box` to make the box and set the axes and legends exaclty where and what we want. This way is cleanser and no conflict between objects. 
  
+ 3. `Paste history` is important
+ 
+This script is actually a record of all the actions that you can do on **Praat Objects** and **Praat Picture**. In other words, without a script you are still be able to make the target figure above by using available functions on those two windows of Praat.  
+So, *why we need a script?*.
+The answer is that:
+- It's easier: a script can perform accurately an action many times, which is difficult by manually setting. For instance, commands such as `select inner viewport` or `select outer viewport` are totally difficult to select manually at the proper margins. 
+- With an available script, it's much faster to produce many figures with the same scales (mass production).
+
+
+
