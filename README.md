@@ -1,4 +1,5 @@
 # praatfig
+(Work in process)
 
 This repository offers scripts with elaborated instruction to help phoneticians (from beginner level) learn how to produce high quality figures on Praat (instead of taking screenshot from Praat's window). 
 
@@ -42,6 +43,7 @@ See [this folder](https://github.com/MinhChauNGUYEN/praatfig/tree/master/Script1
 See [this folder] if you wish to be able to produce be able to produce a figure like this:
 
  <img src="praatfig2.png">
+ This script was used to creat figures for my ICPhS2019 paper. It is majorly based on the script #1, but has been added to the values of f0 and Oq which are not calculated by Praat. 
 
 ### Script #3: An advanced script by [Francisco Torreira](http://cgussenhoven.ruhosting.nl/wordpress/wp-content/uploads/2018/01/byCourtesy_Francisco_Torreira.txt)
 See [this folder](https://github.com/MinhChauNGUYEN/praatfig/tree/master/Script3_DrawObjects_byFranciscoTorreira) if you wish to be able to produce a figure like this:
