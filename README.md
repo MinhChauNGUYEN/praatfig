@@ -3,7 +3,7 @@
 
 This repository offers scripts with elaborated instruction to help phoneticians (from beginner level) learn how to produce high quality figures on Praat (instead of taking screenshot from Praat's window). 
 
-## Requiments
+## Installation
 - Obviously, **Praat** software is required. Find the latest version at http://www.praat.org. 
 
 **praatfig** assumes that the user already has some basic knowledge of **Praat**. For example: open and save objects, view and edit audio file, creat `TextGrid` file and make annotation, etc.
@@ -17,7 +17,7 @@ This repository offers scripts with elaborated instruction to help phoneticians 
 **Encapsulated PostScript**. It may contain 2D vector graphics, bitmap images, and text. 
 
 
-## General instructions
+## General instruction
 
 A rule-of-thumb order of the script for plotting an object 
 - Loading data
