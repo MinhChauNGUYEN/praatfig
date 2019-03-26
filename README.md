@@ -19,15 +19,13 @@ This repository offers scripts with elaborated instruction to help phoneticians 
 
 ## General instructions
 
-### A rule-of-thumb order of the script for plotting an object 
+A rule-of-thumb order of the script for plotting an object 
 - Loading data
 - Choosing the position (There are two options: `Select outer viewport` or `Select inner viewport`) 
 - Selecting object: spectrogram/ audio sound/ pitch/ formants, etc
 - Drawing the objects with details
 - Setting axes and legends
 - Save the file as `.eps`/ `.pdf`/ `.png`
-
-### Understanding available scripts of **Praatfig** 
 
 
 
@@ -40,10 +38,11 @@ See [this folder](https://github.com/MinhChauNGUYEN/praatfig/tree/master/Script1
 
 
 ### Script #2: Adding f0 and Oq values caculated by [Peakdet](https://github.com/alexis-michaud/egg/tree/master/peakdet_inter)
+This script was used to creat figures for my ICPhS2019 paper. 
+
 See [this folder] if you wish to be able to produce be able to produce a figure like this:
 
- <img src="praatfig2.png">
- This script was used to creat figures for my ICPhS2019 paper. It is majorly based on the script #1, but has been added to the values of f0 and Oq which are not calculated by Praat. 
+ <img src="praatfig2.png"> 
 
 ### Script #3: An advanced script by [Francisco Torreira](http://cgussenhoven.ruhosting.nl/wordpress/wp-content/uploads/2018/01/byCourtesy_Francisco_Torreira.txt)
 See [this folder](https://github.com/MinhChauNGUYEN/praatfig/tree/master/Script3_DrawObjects_byFranciscoTorreira) if you wish to be able to produce a figure like this:
