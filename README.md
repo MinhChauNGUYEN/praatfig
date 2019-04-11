@@ -40,7 +40,7 @@ See [this folder](https://github.com/MinhChauNGUYEN/praatfig/tree/master/Script1
 ### Script #2: Adding f0 and Oq values caculated by [Peakdet](https://github.com/alexis-michaud/egg/tree/master/peakdet_inter)
 This script was used to creat figures for my ICPhS-2019 paper. 
 
-See [this folder](https://github.com/MinhChauNGUYEN/praatfig/tree/master/Script2_Drawingf0-Oq) if you wish to be able to produce be able to produce a figure like this:
+See [this folder](https://github.com/MinhChauNGUYEN/praatfig/tree/master/Script2_Drawingf0-Oq) if you wish to be able to produce a figure like this:
 
  <img src="praatfig2.png"> 
 
